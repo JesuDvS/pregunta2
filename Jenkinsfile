@@ -4,6 +4,7 @@ pipeline {
         stage('Clonar repositorio') {
             steps {
                 git branch: 'master', url: "https://github.com/JesuDvS/pregunta2.git"
+
             }
         }
         stage('Construir aplicación') {
